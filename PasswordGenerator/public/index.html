@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Password Generate </title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1> Password Generate </h1>
+    
+    <div class="generated-password">
+      <span class="span-pass"></span>
+    </div>
+
+    <div class="password-options">
+      <label for="qty-characters"> Characters quantity: </label>
+      <input type="number" name="qty-characters" id="qty-characters"> <br>
+
+      <label> Add Numbers </label>
+      <input type="checkbox" name="chk-include-numbers" id="chk-include-numbers"> <br>
+
+      <label> Upper Letters  </label>
+      <input type="checkbox" name="chk-include-upper-letters" id="chk-include-upper-letters"> <br>
+
+      <label> Lower Letters </label>
+      <input type="checkbox" name="chk-include-lower-letters" id="chk-include-lower-letters"> <br>
+
+      <label> Add Symbols </label>
+      <input type="checkbox" name="chk-include-symbols" id="chk-include-symbols"> <br>
+    </div>
+
+    <button type="button" class="btn-generate">Password Generate</button>
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
